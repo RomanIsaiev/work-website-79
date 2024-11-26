@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>СТОП вигорання</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
@@ -11,10 +11,978 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
+    <header class="header">
+      <div class="container">
+        <div class="short-info-container">
+          <p class="info-course">Старт 10 грудня</p>
+          <p class="info-course">Міні-курс</p>
+        </div>
+        <div class="title-container">
+          <h1 class="title">СТОП вигорання:</h1>
+          <p class="subtitle">системний підхід в керуванні своїм ресурсом</p>
+        </div>
+        <div class="desc">Віднови ресурс і заробляй більше без стресу</div>
+        <p class="for-whom">для психологів, коучів, тренерів</p>
+        <ul class="list">
+          <li class="list-item">Відновлення ресурсу: покроковий план</li>
+          <li class="list-item">Перші результати вже в процесі навчання</li>
+          <li class="list-item">Легкі працюючі техніки</li>
+          <li class="list-item">Нова система твоєї роботи без вигорання</li>
+        </ul>
+        <a class="btn-link-container" href="">
+          <p class="btn-link">Детальніше</p>
+          <div class="btn-star-container">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/star-1x.png 1x,
+                  ./src/img/header/star-2x.png 2x
+                "
+                width="75"
+                height="75" />
+              <img
+                class="btn-star-image"
+                src="./src/img/header/star-1x.png"
+                alt="star-sale"
+                width="75"
+                height="75"
+            /></picture>
+            <p class="btn-sale-text">
+              знижка <br />
+              <span>-87%</span>
+            </p>
+          </div>
+        </a>
+      </div>
+    </header>
     <main>
-      <section></section>
+      <section class="bonuses section">
+        <div class="container">
+          <h2 class="title">
+            Встигни приєднатись за кращою ціною <span>і забрати подарунки</span>
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-01-1x.png 1x,
+                    ./src/img/bonuses/bonus-01-2x.png 2x
+                  "
+                  width="249"
+                  height="171" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-01-1x.png"
+                  alt="bonus box"
+                  width="249"
+                  height="171"
+              /></picture>
+              <p class="bonus-text">
+                <span>Гайд</span> “5 прихованих причин вигорання, які нищать ваш
+                ресурс”
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-02-1x.png 1x,
+                    ./src/img/bonuses/bonus-02-2x.png 2x
+                  "
+                  width="249"
+                  height="171" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-02-1x.png"
+                  alt="bonus box"
+                  width="249"
+                  height="171"
+              /></picture>
+              <p class="bonus-text">
+                <span>Практика</span> швидкого відновлення внутрішнього балансу
+                <br />
+                ”Енергетичне переплетіння”
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-03-1x.png 1x,
+                    ./src/img/bonuses/bonus-03-2x.png 2x
+                  "
+                  width="249"
+                  height="171" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-03-1x.png"
+                  alt="bonus box"
+                  width="249"
+                  height="171"
+              /></picture>
+              <p class="bonus-text">
+                <span>Чек-лист</span> “Як працювати з клієнтами без зайвого
+                напруження”
+              </p>
+            </li>
+          </ul>
+          <div class="timer-container">
+            <p class="timer-text">до закінчення акції</p>
+            <div id="countdown-one" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="milliseconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="for-you section">
+        <div class="container">
+          <h2 class="title">Цей курс для тебе, <span>якщо:</span></h2>
+          <ul class="list">
+            <li class="list-item">
+              <span>Ти психолог, коуч або тренер</span> і працюєш з
+              важкими проблемами клієнта витрачаючи всі свої сили
+            </li>
+            <li class="list-item">
+              <span>У тебе не лишається емоційного і фізичного ресурсу</span> на
+              власне життя, родину і розвиток власної практики(справи)
+            </li>
+            <li class="list-item">
+              <span>Маєш мрію про чергу</span> з високооплачуваних клієнтів,
+              масштабування доходу, але не розумієш як можна працювати ще більше
+              чим зараз
+            </li>
+            <li class="list-item">
+              <span>Якщо ти стикаєшся з емоційним знесиленням,</span> втомою,
+              апатією, втратою сенсів в професійному житті, курс допоможе
+              зрозуміти коріння цих станів і у 4 кроки відновити сили та
+              натхнення
+            </li>
+            <li class="list-item">
+              <span
+                >Якщо ти відчуваєш що не отримуєш за свою роботу відповідної
+                матеріальної винагороди</span
+              >
+              або що твоя робота має коштувати дорожче проте боїшся піднімати
+              ціни “бо клієнт не заплатить. З курсу ти зрозумієш, як зробити це
+              легко і на користь клієнта
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="bg-wrapper-author">
+        <section class="about-author section">
+          <div class="container">
+            <h2 class="title">Про автора</h2>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/author/author-1x.png 1x,
+                  ./src/img/author/author-2x.png 2x
+                "
+                width="320"
+                height="320" />
+              <img
+                class="author-image"
+                src="./src/img/author/author-1x.png"
+                alt="author"
+                width="320"
+                height="320"
+            /></picture>
+            <h3 class="author-name">Анжела Майстренко</h3>
+            <p class="desc">
+              психолог; майстер системних рішень у відносинах з собою, родиною,
+              партнерами та в бізнесі; власник бізнесу з 21 річним стажем
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                <span>Понад 20 років я навчаюсь,</span> досліджую і збираю
+                найдієвіші техніки успішної взаємодії з клієнтами. В моєму
+                арсеналі десятки методів і сотні технік які протестовані і
+                втілені в мою роботу та приносять вдячних клієнтів, прибуток і
+                звичайно задоволення від моєї праці
+              </li>
+              <li class="list-item">
+                <span>Моя місія</span> - навчити якомога більше людей сучасній
+                психології з гарантованими миттєвими результатам, показати людям
+                швидкий шлях до щастя тут і зараз через використання Системного
+                підходу
+              </li>
+              <li class="list-item">
+                <span>Моя мета</span> - щоб кожен психолог,коуч,тренер  мав
+                нескінченний потік сил та енергії для допомоги клієнтам,свого
+                особистого життя і розвитку в професії завдяки використанню
+                знань про Систему “Психолог-Клієнт”
+              </li>
+            </ul>
+            <a class="btn-link-container" href="">
+              <p class="btn-link">Хочу на курс</p>
+              <div class="btn-star-container">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/star-1x.png 1x,
+                      ./src/img/header/star-2x.png 2x
+                    "
+                    width="75"
+                    height="75" />
+                  <img
+                    class="btn-star-image"
+                    src="./src/img/header/star-1x.png"
+                    alt="star-sale"
+                    width="75"
+                    height="75"
+                /></picture>
+                <p class="btn-sale-text">
+                  знижка <br />
+                  <span>-87%</span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="course-consist section">
+          <div class="container">
+            <h2 class="title">
+              Курс <br />
+              <span>складається з:</span>
+            </h2>
+            <ul class="list">
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/course-consist/consist-01-1x.png 1x,
+                      ./src/img/course-consist/consist-01-2x.png 2x
+                    "
+                    width="110"
+                    height="135" />
+                  <img
+                    class="item-image"
+                    src="./src/img/course-consist/consist-01-1x.png"
+                    alt="image"
+                    width="110"
+                    height="135"
+                /></picture>
+                <div class="item-text-box">
+                  <p class="item-title">Основні матеріали:</p>
+                  <p class="item-text">5 відео-уроків довжиною 20-25 хвилин</p>
+                </div>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/course-consist/consist-02-1x.png 1x,
+                      ./src/img/course-consist/consist-02-2x.png 2x
+                    "
+                    width="110"
+                    height="135" />
+                  <img
+                    class="item-image"
+                    src="./src/img/course-consist/consist-02-1x.png"
+                    alt="image"
+                    width="110"
+                    height="135"
+                /></picture>
+                <div class="item-text-box">
+                  <p class="item-title">Інтерактивні завдання:</p>
+                  <p class="item-text">
+                    Кожен з уроків має завершальну вправу,яка допомагає на
+                    практиці втілити отримані знання
+                  </p>
+                </div>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/course-consist/consist-03-1x.png 1x,
+                      ./src/img/course-consist/consist-03-2x.png 2x
+                    "
+                    width="110"
+                    height="135" />
+                  <img
+                    class="item-image"
+                    src="./src/img/course-consist/consist-03-1x.png"
+                    alt="image"
+                    width="110"
+                    height="135"
+                /></picture>
+                <div class="item-text-box">
+                  <p class="item-title">Групова робота:</p>
+                  <p class="item-text">
+                    Спільний чат учасників курсу для обміну досвідом проходження
+                    курсу, обговорення питань та взаємопідтримки
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section class="program section">
+        <div class="container">
+          <h2 class="title">Програма курсу</h2>
+          <ul class="list">
+            <li class="list-item">
+              <span class="item-number">01</span>
+              <div class="item-content">
+                <p class="lesson-number">[ урок 1 ]</p>
+                <p class="lesson-title">Вигорання: що, де, коли?</p>
+                <ul class="lesson-list">
+                  <li class="lesson-item">
+                    <span>Тема 1.</span> Що таке вигорання
+                  </li>
+                  <li class="lesson-item">
+                    <span>Тема 2.</span> З чого складається твоє вигорання
+                  </li>
+                  <li class="lesson-item">
+                    <span>Тема 3.</span> Для чого до вас приходить клієнт
+                  </li>
+                </ul>
+                <p class="result-title">Результат урока:</p>
+                <p class="result">
+                  Зрозумієш звідки насправді твоя втома і незадоволення собою і
+                  роботою
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <span class="item-number">02</span>
+              <div class="item-content">
+                <p class="lesson-number">[ урок 2 ]</p>
+                <p class="lesson-title">Системний підхід</p>
+                <ul class="lesson-list">
+                  <li class="lesson-item">
+                    <span>Тема 1.</span> Що таке система. Види систем
+                  </li>
+                  <li class="lesson-item">
+                    <span>Тема 2.</span> Система Життя
+                  </li>
+                  <li class="lesson-item">
+                    <span>Тема 3.</span> Цілі. Ролі. Ресурси
+                  </li>
+                </ul>
+                <p class="result-title">Результат урока:</p>
+                <p class="result">
+                  Навчишся будувати основу для своєї ресурсності в любій сфері
+                  свого життя
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <span class="item-number">03</span>
+              <div class="item-content">
+                <p class="lesson-number">[ урок 3 ]</p>
+                <p class="lesson-title">Система Майстер-Клієнт</p>
+                <ul class="lesson-list">
+                  <li class="lesson-item"><span>Тема 1.</span> Цілі системи</li>
+                  <li class="lesson-item"><span>Тема 2.</span> Ролі</li>
+                  <li class="lesson-item"><span>Тема 3.</span> Ресурси</li>
+                </ul>
+                <p class="result-title">Результат урока:</p>
+                <p class="result">
+                  Навчишся легко і швидко будувати основу свого ресурсу для
+                  роботи з клієнтами
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <span class="item-number">04</span>
+              <div class="item-content">
+                <p class="lesson-number">[ урок 4 ]</p>
+                <p class="lesson-title">Порушення в системі = вигорання</p>
+                <ul class="lesson-list">
+                  <li class="lesson-item">
+                    <span>Тема 1.</span> Основні види порушень
+                  </li>
+                  <li class="lesson-item">
+                    <span>Тема 2.</span> Наслідки порушень
+                  </li>
+                </ul>
+                <p class="result-title">Результат урока:</p>
+                <p class="result">
+                  Побачиш, де і як ти починаєш втрачати сили при роботі з
+                  клієнтами, які твоїі дії призводять  до вигорання і як це
+                  впливає на всі сфери твого життя: здоров'я, стосунки з родиною
+                  і світом
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <span class="item-number">05</span>
+              <div class="item-content">
+                <p class="lesson-number">[ урок 5 ]</p>
+                <p class="lesson-title">Власна інструкція проти вигорання</p>
+                <p class="result-title">Результат урока:</p>
+                <p class="result">
+                  Разом ми складемо вашу власну пошагову інструкцію, виконуючи
+                  яку ти зможеш працювати без вигорання
+                </p>
+              </div>
+            </li>
+          </ul>
+          <a class="btn-link-container" href="">
+            <p class="btn-link">Хочу на курс</p>
+            <div class="btn-star-container">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/star-1x.png 1x,
+                    ./src/img/header/star-2x.png 2x
+                  "
+                  width="75"
+                  height="75" />
+                <img
+                  class="btn-star-image"
+                  src="./src/img/header/star-1x.png"
+                  alt="star-sale"
+                  width="75"
+                  height="75"
+              /></picture>
+              <p class="btn-sale-text">
+                знижка <br />
+                <span>-87%</span>
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <div class="bg-wrapper-study">
+        <section class="how-study">
+          <div class="container">
+            <div class="wrapper">
+              <h2 class="title">Як відбувається навчання</h2>
+              <ul class="list">
+                <li class="list-item">
+                  <span>Після оплати</span> ти отримаєте електронного листа з
+                  доступом до навчальної платформи
+                </li>
+                <li class="list-item">
+                  <span>Ти дивишся відео-урок</span> з основним матеріалом
+                </li>
+                <li class="list-item">
+                  <span>Виконуєш вправу</span> під уроком
+                </li>
+                <li class="list-item">
+                  <span>Отримуєш</span> доступ до наступного уроку
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="results">
+          <div class="container">
+            <h2 class="title">Результати після навчання</h2>
+            <h3 class="you-get">Що ти отримаєш:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/get-01-1x.png 1x,
+                      ./src/img/results/get-01-2x.png 2x
+                    "
+                    width="36"
+                    height="40" />
+                  <img
+                    class="item-image"
+                    src="./src/img/results/get-01-1x.png"
+                    alt="emoji"
+                    width="36"
+                    height="40"
+                /></picture>
+                Ти відновиш свої сили
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/get-02-1x.png 1x,
+                      ./src/img/results/get-02-2x.png 2x
+                    "
+                    width="36"
+                    height="40" />
+                  <img
+                    class="item-image"
+                    src="./src/img/results/get-02-1x.png"
+                    alt="emoji"
+                    width="36"
+                    height="40"
+                /></picture>
+                Будеш знати, як знаходити і отримувати свої нескінченні ресурси
+                в любій системі
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/get-03-1x.png 1x,
+                      ./src/img/results/get-03-2x.png 2x
+                    "
+                    width="36"
+                    height="40" />
+                  <img
+                    class="item-image"
+                    src="./src/img/results/get-03-1x.png"
+                    alt="emoji"
+                    width="36"
+                    height="40"
+                /></picture>
+                Зможеш гармонійно поєднувати роботу і особисте життя
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/get-04-1x.png 1x,
+                      ./src/img/results/get-04-2x.png 2x
+                    "
+                    width="36"
+                    height="40" />
+                  <img
+                    class="item-image"
+                    src="./src/img/results/get-04-1x.png"
+                    alt="emoji"
+                    width="36"
+                    height="40"
+                /></picture>
+                Повернеш творчість і натхнення в роботу
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/get-05-1x.png 1x,
+                      ./src/img/results/get-05-2x.png 2x
+                    "
+                    width="36"
+                    height="40" />
+                  <img
+                    class="item-image"
+                    src="./src/img/results/get-05-1x.png"
+                    alt="emoji"
+                    width="36"
+                    height="40"
+                /></picture>
+                Зможеш швидко повернутися в ресурс, якщо зробиш помилку і
+                втратиш силу та енергію
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/get-06-1x.png 1x,
+                      ./src/img/results/get-06-2x.png 2x
+                    "
+                    width="36"
+                    height="40" />
+                  <img
+                    class="item-image"
+                    src="./src/img/results/get-06-1x.png"
+                    alt="emoji"
+                    width="36"
+                    height="40"
+                /></picture>
+                Зможеш дати результат клієнтові швидко і екологічно
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/get-07-1x.png 1x,
+                      ./src/img/results/get-07-2x.png 2x
+                    "
+                    width="36"
+                    height="40" />
+                  <img
+                    class="item-image"
+                    src="./src/img/results/get-07-1x.png"
+                    alt="emoji"
+                    width="36"
+                    height="40"
+                /></picture>
+                Зростаючу чергу з вдячних клієнтів
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section class="bonuses section last">
+        <div class="container">
+          <h2 class="title">
+            Встигни приєднатись за кращою ціною <span>і забрати подарунки</span>
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-01-1x.png 1x,
+                    ./src/img/bonuses/bonus-01-2x.png 2x
+                  "
+                  width="249"
+                  height="171" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-01-1x.png"
+                  alt="bonus box"
+                  width="249"
+                  height="171"
+              /></picture>
+              <p class="bonus-text">
+                <span>Гайд</span> “5 прихованих причин вигорання, які нищать ваш
+                ресурс”
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-02-1x.png 1x,
+                    ./src/img/bonuses/bonus-02-2x.png 2x
+                  "
+                  width="249"
+                  height="171" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-02-1x.png"
+                  alt="bonus box"
+                  width="249"
+                  height="171"
+              /></picture>
+              <p class="bonus-text">
+                <span>Практика</span> швидкого відновлення внутрішнього балансу
+                <br />
+                ”Енергетичне переплетіння”
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-03-1x.png 1x,
+                    ./src/img/bonuses/bonus-03-2x.png 2x
+                  "
+                  width="249"
+                  height="171" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-03-1x.png"
+                  alt="bonus box"
+                  width="249"
+                  height="171"
+              /></picture>
+              <p class="bonus-text">
+                <span>Чек-лист</span> “Як працювати з клієнтами без зайвого
+                напруження”
+              </p>
+            </li>
+          </ul>
+          <div class="timer-container last">
+            <p class="timer-text">до закінчення акції</p>
+            <div id="countdown-one" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="milliseconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="garant-container">
+          <p class="garant-text">
+            На курс діє гарантія безумовного повернення коштів протягом 14 днів
+          </p>
+        </div>
+      </section>
+      <div class="bg-wrapper-reviews">
+        <section class="reviews">
+          <div class="container">
+            <h2 class="title">відгуки</h2>
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-01-1x.png 1x,
+                        ./src/img/reviews/review-01-2x.png 2x
+                      "
+                      width="320"
+                      height="460" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-01-1x.png"
+                      alt="review"
+                      width="320"
+                      height="460"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-02-1x.png 1x,
+                        ./src/img/reviews/review-02-2x.png 2x
+                      "
+                      width="320"
+                      height="460" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-02-1x.png"
+                      alt="review"
+                      width="320"
+                      height="460"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-03-1x.png 1x,
+                        ./src/img/reviews/review-03-2x.png 2x
+                      "
+                      width="320"
+                      height="460" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-03-1x.png"
+                      alt="review"
+                      width="320"
+                      height="460"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-04-1x.png 1x,
+                        ./src/img/reviews/review-04-2x.png 2x
+                      "
+                      width="320"
+                      height="460" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-04-1x.png"
+                      alt="review"
+                      width="320"
+                      height="460"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-05-1x.png 1x,
+                        ./src/img/reviews/review-05-2x.png 2x
+                      "
+                      width="320"
+                      height="460" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-05-1x.png"
+                      alt="review"
+                      width="320"
+                      height="460"
+                  /></picture>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+        <section class="questions">
+          <div class="container">
+            <div class="title-container">
+              <h2 class="title">Відповіді</h2>
+              <p class="subtitle">на запитання</p>
+            </div>
+            <div class="questions-container">
+              <ul class="questions-list list">
+                <li class="questions-item">
+                  <div class="questions-title-container">
+                    <p class="questions-item-title">
+                      Як цей курс допоможе мені подолати вигоряння?
+                    </p>
+                    <div class="questions-item-svg"></div>
+                  </div>
+                  <div class="questions-answer-container">
+                    <div class="questions-wrapper">
+                      <p class="questions-answer">
+                        Курс заснований на методі системної психології, який
+                        дозволяє глибше зрозуміти причини вигоряння та навчитися
+                        ефективним технікам відновлення. Ти отримаєш інструменти
+                        для самодіагностики та стратегії, які зможеш
+                        застосовувати як у своїй роботі з клієнтами, так і в
+                        особистому житті
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-title-container">
+                    <p class="questions-item-title">
+                      У мене немає досвіду у психології. Чи підійде цей курс?
+                    </p>
+                    <div class="questions-item-svg"></div>
+                  </div>
+                  <div class="questions-answer-container">
+                    <div class="questions-wrapper">
+                      <p class="questions-answer">
+                        Абсолютно! Курс розроблений як для початківців, так і
+                        для досвідчених спеціалістів. Ми докладно пояснюємо
+                        кожну тему,розяснюємо поняття та надаємо практичні
+                        інструменти, які легко інтегрувати у свою роботу і життя
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-title-container">
+                    <p class="questions-item-title">
+                      Як я зможу застосовувати отримані знання на практиці?
+                    </p>
+                    <div class="questions-item-svg"></div>
+                  </div>
+                  <div class="questions-answer-container">
+                    <div class="questions-wrapper">
+                      <p class="questions-answer">
+                        Ти отримаєш конкретні техніки та вправи, які зможеш
+                        використовувати відразу ж зі своїми клієнтами. Курс
+                        включає практичні завдання , що дозволить тобі побачити
+                        результати у дії.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-title-container">
+                    <p class="questions-item-title">
+                      Скільки часу займе курс і як воно організоване?
+                    </p>
+                    <div class="questions-item-svg"></div>
+                  </div>
+                  <div class="questions-answer-container">
+                    <div class="questions-wrapper">
+                      <p class="questions-answer">
+                        Курс складається з 5 відео-уроків по 15-20 хвилин, які
+                        ти зможеш проходити у зручному темпі. У середньому на
+                        навчання у тебе піде 5-8 днів , включаючи час на
+                        практичні завдання 
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-title-container">
+                    <p class="questions-item-title">
+                      Я переживаю, що не побачу результатів. Які гарантії?
+                    </p>
+                    <div class="questions-item-svg"></div>
+                  </div>
+                  <div class="questions-answer-container">
+                    <div class="questions-wrapper">
+                      <p class="questions-answer">
+                        Програма курсу розроблена таким чином,що при виконанні
+                        всіх завдань ти автоматично отримуєш результат. Ми
+                        впевнені в якості нашого курсу та надаємо гарантію
+                        повернення грошей, якщо ти не помітиш покращень після
+                        його завершення. Ваше благополуччя — наше пріоритетне
+                        завдання.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-title-container">
+                    <p class="questions-item-title">
+                      Як буде організована взаємодія з іншими учасниками?
+                    </p>
+                    <div class="questions-item-svg"></div>
+                  </div>
+                  <div class="questions-answer-container">
+                    <div class="questions-wrapper">
+                      <p class="questions-answer">
+                        Ти будете частиною закритої спільноти, де зможете
+                        ділитися досвідом, обговорювати труднощі та отримувати
+                        підтримку.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
+    <footer class="footer section">
+      <div class="container">
+        <div class="fop-box">
+          <p class="name">фоп імʼя прізвище</p>
+          <p class="code">іпн 00000000</p>
+        </div>
+        <a class="mail-link" href="mailto:"
+          ><div class="mail-box">
+            <img src="./src/img/mail.svg" alt="mail" />
+            <p class="mail">пошта</p>
+          </div></a
+        >
+        <div class="deals-box">
+          <a href="" target="_blank" rel="nofollow" class="deals-link public"
+            >публічна оферта</a
+          >
+          <a
+            href=""
+            target="_blank"
+            rel="nofollow"
+            class="deals-link confidence"
+            >політика конфідеційності</a
+          >
+        </div>
+        <a
+          class="dising-creator"
+          href="https://www.instagram.com/lllcku"
+          target="_blank"
+          rel="nofollow"
+        >
+          <p>розробка сайту</p>
+          <div class="creator-box">
+            <img src="./src/img/insta.svg" alt="insta" height="17" width="17" />
+            <h3 class="creator-name">lisa bardadym</h3>
+          </div></a
+        >
+      </div>
+    </footer>
+
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/swiper.js" type="module"></script>
+    <script src="./src/js/questions.js" type="module"></script>
   </body>
 </html>
