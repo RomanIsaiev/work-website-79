@@ -18,6 +18,18 @@
   }
 }
 
+@keyframes pulseScale {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.07;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
 /* header */
 
 .header {
@@ -165,6 +177,8 @@
   padding: 18px;
   border-radius: 110px;
   background: #01e586;
+
+  animation: pulseScale 2000ms infinite;
 }
 
 .btn-link {
@@ -1053,6 +1067,8 @@
 }
 
 .fop-box {
+  display: none;
+
   color: #fff;
   text-align: center;
   font-family: 'Helvetica Neue';
