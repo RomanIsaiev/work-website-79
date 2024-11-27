@@ -809,6 +809,35 @@
   transform: translate(-50%);
 }
 
+/* buy-sec */
+
+.buy-section {
+}
+
+.buy-section .section {
+}
+
+.buy-section .container {
+}
+
+.buy-section .price {
+  color: #072ffa;
+  text-align: center;
+  font-family: 'Helvetica Neue';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 34px */
+  letter-spacing: -0.68px;
+
+  margin-bottom: 22px;
+}
+
+.buy-section .price span {
+  color: rgba(7, 47, 250, 0.4);
+  text-decoration: line-through;
+}
+
 /* bonus-2 */
 
 .bonuses.last {
