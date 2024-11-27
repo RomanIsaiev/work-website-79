@@ -159,6 +159,12 @@
 .btn-link-container {
   display: block;
   position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+
+  padding: 18px;
+  border-radius: 110px;
+  background: #01e586;
 }
 
 .btn-link {
@@ -171,12 +177,6 @@
   line-height: 100%; /* 16px */
   letter-spacing: -0.32px;
   text-transform: uppercase;
-
-  padding: 18px;
-  max-width: 320px;
-  margin: 0 auto;
-  border-radius: 110px;
-  background: #01e586;
 }
 
 .btn-star-container {
