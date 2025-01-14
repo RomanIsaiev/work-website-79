@@ -833,7 +833,7 @@
 .buy-section .container {
 }
 
-.buy-section .price {
+.price {
   color: #072ffa;
   text-align: center;
   font-family: 'Helvetica Neue';
@@ -846,9 +846,17 @@
   margin-bottom: 22px;
 }
 
-.buy-section .price span {
+.price span {
   color: rgba(7, 47, 250, 0.4);
   text-decoration: line-through;
+}
+
+.about-author .price {
+  color: #ffbf00;
+}
+
+.about-author .price span {
+  color: #ffbf00a6;
 }
 
 /* bonus-2 */
