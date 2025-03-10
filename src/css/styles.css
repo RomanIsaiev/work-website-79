@@ -1074,6 +1074,25 @@
   margin: 0 auto;
 }
 
+.socials-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.links-item {
+  color: #fff;
+  text-align: center;
+  font-family: 'Helvetica Neue';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 16.1px */
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
 .fop-box {
   display: none;
 
